@@ -406,38 +406,13 @@ textarea.input {
 	02 -> HEADER
 ===========================================================*/
 
-/*----------------------------*\
-	Top header
-\*----------------------------*/
-
-#top-header {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #1E1F29;
+/*Container for Header */
+.container{
+  width: 90%;
 }
 
-.header-links li {
-  display: inline-block;
-  margin-right: 15px;
-  font-size: 12px;
-}
 
-.header-links li:last-child {
-  margin-right: 0px;
-}
 
-.header-links li a {
-  color: #FFF;
-}
-
-.header-links li a:hover {
-  color: #D10024;
-}
-
-.header-links li i {
-  color: #D10024;
-  margin-right: 5px;
-}
 
 /*----------------------------*\
 	Logo
@@ -450,7 +425,7 @@ textarea.input {
 }
 
 .header-logo {
-  float: left;
+  float: 50%;
 }
 
 .header-logo .logo img {
@@ -482,7 +457,7 @@ textarea.input {
 .header-search form .search-btn {
   height: 40px;
   width: 100px;
-  background: #D10024;
+  background: darkblue;
   color: #FFF;
   font-weight: 700;
   border: none;
